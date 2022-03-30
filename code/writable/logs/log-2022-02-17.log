@@ -1,0 +1,90 @@
+CRITICAL - 2022-02-17 16:58:12 --> Invalid file: vbienvenida.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vbienvenida.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vbienvenida', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(13): view('vbienvenida')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->bienvenida()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:07:07 --> Invalid file: vbienvenida.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vbienvenida.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vbienvenida', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(13): view('vbienvenida')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->bienvenida()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:08:59 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:10:32 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:14:09 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:19:13 --> Invalid file: vbienvenida.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vbienvenida.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vbienvenida', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(13): view('vbienvenida')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->bienvenida()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:21:43 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:23:49 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:24:09 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-17 17:31:46 --> Invalid file: vRegistro.php
+#0 C:\xampp2\htdocs\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistro.php')
+#1 C:\xampp2\htdocs\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistro', Array, true)
+#2 C:\xampp2\htdocs\code\app\Controllers\Home.php(16): view('vRegistro')
+#3 C:\xampp2\htdocs\code\system\CodeIgniter.php(825): App\Controllers\Home->registro()
+#4 C:\xampp2\htdocs\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp2\htdocs\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp2\htdocs\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
