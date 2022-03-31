@@ -1,0 +1,87 @@
+CRITICAL - 2022-03-30 22:57:52 --> Class "App\Models\mUsuarios" not found
+#0 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 22:59:24 --> Undefined variable $nombre
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Views\vIngresado.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\Common.php(1089): CodeIgniter\View\View->render('vIngresado', Array, true)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(47): view('vIngresado', Array)
+#5 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 23:00:07 --> Undefined variable $estatus
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Views\vIngresado.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\Common.php(1089): CodeIgniter\View\View->render('vIngresado', Array, true)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(47): view('vIngresado', Array)
+#5 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 23:10:36 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Views\vIngresado.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\Common.php(1089): CodeIgniter\View\View->render('vIngresado', Array, true)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(47): view('vIngresado', Array)
+#5 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 23:21:25 --> Class "App\Models\mGastos" not found
+#0 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->insertarG()
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-30 23:22:55 --> Undefined variable $id_usuario
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Views\vIngresado.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\Common.php(1089): CodeIgniter\View\View->render('vIngresado', Array, true)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(50): view('vIngresado', Array)
+#5 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->insertarG()
+#6 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 23:27:50 --> Undefined variable $mUsuarios
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->insertarG()
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 23:36:00 --> Undefined array key "nombres"
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro()
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 23:36:29 --> Undefined array key "nombres"
+#0 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro()
+#2 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 23:42:03 --> Invalid file: vRegistros.php
+#0 C:\xampp\htdocs\examen\examenTPWII\code\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vRegistros.php')
+#1 C:\xampp\htdocs\examen\examenTPWII\code\system\Common.php(1089): CodeIgniter\View\View->render('vRegistros', Array, true)
+#2 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(58): view('vRegistros', Array)
+#3 C:\xampp\htdocs\examen\examenTPWII\code\app\Controllers\Home.php(78): App\Controllers\Home->mostrarRegistros()
+#4 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(825): App\Controllers\Home->actualizarRegistro()
+#5 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\examen\examenTPWII\code\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\examen\examenTPWII\code\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

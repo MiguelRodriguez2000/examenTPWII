@@ -1,0 +1,22 @@
+CREATE TABLE usuarios(
+    id_usuario int not null AUTO_INCREMENT PRIMARY KEY,
+    nombres varchar(50) not null,
+    apellidos varchar(50) not null,
+    correo varchar(50) not null,
+    contra varchar(50) not null
+)
+
+CREATE TABLE tipos(
+    id_tipo int not null AUTO_INCREMENT PRIMARY KEY,
+    nombre varchar(50) not null
+)
+
+CREATE TABLE gastos(
+    id_gasto int not null AUTO_INCREMENT PRIMARY KEY,
+    cantidad double not null,
+    descripción varchar(50),
+    id_usuario int not null,
+    id_tipo int not null,
+    CONSTRAINT gu FOREIGN KEY(id_usuario) REFERENCES usuarios(id_usuario),
+    CONSTRAINT gt FOREIGN KEY(id_tipo) REFERENCES tipos(id_tipo)
+)
