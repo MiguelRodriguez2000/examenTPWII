@@ -1,3 +1,10 @@
+<?php
+include_once('funciones_comunes.php');
+$opciones_combo_usuarios=combo_usuarios();
+$opciones_combo_tipos=combo_tipos();
+$id_usuario = $_POST['id_usuario'];
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,9 +29,9 @@
 		<br>
 		<center>Descripción: <input required type="text" name="descrip" id="descrip" value="<?php echo $descrip; ?>"></center>
 		<br>
-		<center>Usuario: <input required type="text" name="id_usuario" id="id_usuario" value="<?php echo $id_usuario; ?>" readonly></center>
-		<br>
-		<center>Tipo: <input required type="text" name="id_tipo" id="id_tipo" value="<?php echo $id_tipo; ?>"></center>
+		<input type="hidden" name="id_usuario" value="<?php echo $id_usuario ?>" id="id_usuario">
+		
+		<center>Tipo: <select required type="text" name="id_tipo" id="id_tipo"><?php echo $opciones_combo_tipos;?></select></center>
 		<br>
 		<center><input type="submit" name="Actualizar" value="Actualizar"></center>
 	</form>
