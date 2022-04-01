@@ -92,6 +92,9 @@ if($resultado){
 			<input type="hidden" name="id_usuario" value=<?php echo $id_usuario?>>
 			<button type="submit">Registrar gasto</button>
 		</form>
+		<br><br>
+    <a href="../Home/bienvenida">Salir</a>
 	</div>
+
 </footer>
 </html>

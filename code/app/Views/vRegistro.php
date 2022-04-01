@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulario</title>
-	<style>
-		body{
-			background: #c2d6d6;
-		}
-	</style>
 </head>
 <body>
 	<br><br><br>
@@ -30,5 +25,6 @@
 	</form>
 	</div>
 	<br/><br/>
+    <center><a href="../Home/ingreso">Ya tienes una cuenta??</a></center>
 </body>
 </html>

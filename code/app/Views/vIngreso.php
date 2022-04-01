@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <style>
-        body{
-            background: #c2d6d6;
-        }
-    </style>
 </head>
 <body>
     <br><br><br>
@@ -25,7 +20,7 @@
         <center><input type="submit" name="enviar" value="ingresar"></center>
     </form>
     <br><br>
-    <a href="../Home/registro">Registrarse</a>
+    <center><a href="../Home/registro">Registrarse</a></center>
     </div>
     <br/><br/>
 </body>

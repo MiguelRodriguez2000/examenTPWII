@@ -15,6 +15,7 @@ CREATE TABLE gastos(
     id_gasto int not null AUTO_INCREMENT PRIMARY KEY,
     cantidad double not null,
     descripción varchar(50),
+    fecha date not null,
     id_usuario int not null,
     id_tipo int not null,
     CONSTRAINT gu FOREIGN KEY(id_usuario) REFERENCES usuarios(id_usuario),
