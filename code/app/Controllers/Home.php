@@ -25,16 +25,15 @@ class Home extends BaseController
     public function insertarForm(){
         $mUsuarios = new mUsuarios();
         $usuarioNuevo = [
-            "nombre" => $_POST['nombre'],
-            "apellido" => $_POST['apellido'],
+            "nombres" => $_POST['nombres'],
+            "apellidos" => $_POST['apellidos'],
             "correo" => $_POST['correo'],
-            "rol" => $_POST['rol'],
             "contra" => $_POST['contra']
         ];
         $mUsuarios->insert($usuarioNuevo);
         $datoId['id_usuario'] = $mUsuarios->
         db->insertID();
-        return view("vSuccess",$datoId );
+        return view("vIngreso");
     }
     public function insertarG(){
         $mGastos = new mGastos();
@@ -42,6 +41,7 @@ class Home extends BaseController
         $gastoNuevo = [
             "cantidad" => $_POST['cantidad'],
             "descrip" => $_POST['descrip'],
+            "fecha" => $_POST['fecha'],
             "id_usuario" => $_POST['id_usuario'],
             "id_tipo" => $_POST['id_tipo']
         ];
@@ -113,6 +113,7 @@ class Home extends BaseController
         $gastoActualizado = [
             "cantidad" => $_POST['cantidad'],
             "descrip" => $_POST['descrip'],
+            "fecha" => $_POST['fecha'],
             "id_usuario" => $_POST['id_usuario'],
             "id_tipo" => $_POST['id_tipo']
         ];

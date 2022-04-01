@@ -30,7 +30,8 @@ $id_usuario = $_POST['id_usuario'];
 		<center>Descripción: <input required type="text" name="descrip" id="descrip"></center>
 		<br>
 		<input type="hidden" name="id_usuario" value="<?php echo $id_usuario ?>" id="id_usuario">
-		
+		<center>Fecha: <input required type="date" name="fecha" id="fecha"></center>
+		<br>
 		<center>Tipo: <select required type="text" name="id_tipo" id="id_tipo"><?php echo $opciones_combo_tipos;?></select></center>
 		<br>
 		<center><input type="submit" name="enviar" value="Registrar"></center>

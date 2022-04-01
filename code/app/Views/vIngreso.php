@@ -24,6 +24,8 @@
         <br>
         <center><input type="submit" name="enviar" value="ingresar"></center>
     </form>
+    <br><br>
+    <a href="../Home/registro">Registrarse</a>
     </div>
     <br/><br/>
 </body>

@@ -18,9 +18,9 @@
 	<h3><center>Ingrese correctamente sus datos</center></h3>
 	<form method="POST" action="../Home/insertarForm">
 		<div>	
-		<center>Nombre: <input required type="text" name="nombre" id="nombre"></center>
+		<center>Nombre: <input required type="text" name="nombres" id="nombres"></center>
 		<br>
-		<center>Apellido: <input required type="text" name="apellido" id="apellido"></center>
+		<center>Apellido: <input required type="text" name="apellidos" id="apellidos"></center>
 		<br>
 		<center>Correo: <input required type="text" name="correo" id="correo"></center>
 		<br>

@@ -44,6 +44,7 @@ $tabla='<table border="1">
                <th> ID </th>
                <th> CANTIDAD </th>
                <th> DESCRIPCIÓN </th>
+               <th> FECHA </th>
                <th> USUARIO </th>
                <th> TIPO </th>
                <th> ACCIONES </th>
@@ -56,6 +57,7 @@ if($resultado){
                <td> '.$fila['id_gasto'].'  </td>
                <td> '.$fila['cantidad'].' </td>
                <td> '.$fila['descrip'].' </td>
+               <td> '.$fila['fecha'].' </td>
                <td> '.$fila['usuario'].' </td>
                <td> '.$fila['tipo'].' </td>
                
